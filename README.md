@@ -1,8 +1,7 @@
 # IBD Multi-Omics Molecular Signature Project
 
-**BIO F266: Study Project — BITS Pilani, Hyderabad Campus**  
+**BIO F367: Design Project — BITS Pilani, Hyderabad Campus**  
 **Student:** Aarati Dhamele (2023B1A70641H)  
-**Supervisor:** [Supervisor Name]
 
 ---
 
