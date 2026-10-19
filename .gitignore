@@ -20,6 +20,12 @@ reference/
 # ----- Literature PDFs (copyright; do not redistribute) -----
 literature/
 
+# ----- Dev / debug / exploratory scripts (not part of the pipeline) -----
+scripts/check_*.R
+scripts/inspect_*.R
+scripts/debug_*.R
+scripts/test_urls.R
+
 # ----- R environment -----
 .Rhistory
 .RData
