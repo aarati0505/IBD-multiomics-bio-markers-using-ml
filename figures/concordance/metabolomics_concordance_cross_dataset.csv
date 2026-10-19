@@ -1,0 +1,3 @@
+"metabolite","metabolite_clean","mtbls_lfc","mtbls_padj","feature","hmp2_lfc","hmp2_padj","concordant","both_sig","direction"
+"Phenylacetylglutamine","phenylacetylglutamine",5.54065370897368,5.81392504058547e-14,"C18n_QI2774",0.346424455020563,0.312147965572215,TRUE,FALSE,"Both UP in IBD"
+"Tridecanoic_acid","tridecanoic acid",0.332638141429673,0.134319276966224,"C18n_QI1630",-0.055628187347284,0.953980659595238,FALSE,FALSE,"MTBLS up / HMP2 down"

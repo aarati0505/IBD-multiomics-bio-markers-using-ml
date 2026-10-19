@@ -1,0 +1,51 @@
+# =====================================================================
+# IBD Multi-Omics Project - .gitignore
+# Large raw/intermediate data files are excluded from GitHub.
+# They are regeneratable by running the scripts/ pipeline or
+# downloadable from public repos (GEO, ProteomeXchange, MetaboLights, HMP2 DPC).
+# =====================================================================
+
+# ----- Large raw datasets (downloadable from public repositories) -----
+transcriptomics/
+proteomics/
+metabolomics/
+metagenomics/
+
+# ----- Large intermediate processed files (regeneratable from scripts) -----
+processed/
+
+# ----- Reference annotation files (download from Ensembl) -----
+reference/
+
+# ----- Literature PDFs (copyright; do not redistribute) -----
+literature/
+
+# ----- R environment -----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ----- OS / Editor -----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----- Temp / Logs -----
+*.log
+*.tmp
+*.bak
