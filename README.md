@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project integrates multiple types of biological data — transcriptomics, proteomics, metabolomics, and metagenomics — from publicly available IBD (Inflammatory Bowel Disease) datasets to identify a robust molecular signature that can distinguish IBD patients from healthy controls.
+This project integrates multiple types of biological data transcriptomics, proteomics, metabolomics, and metagenomics — from publicly available IBD (Inflammatory Bowel Disease) datasets to identify a robust molecular signature that can distinguish IBD patients from healthy controls.
 
 The end goal is a minimal panel of molecular markers (genes, proteins, metabolites, microbial features) that together reliably identify IBD — potentially enabling a non-invasive diagnostic test from blood or stool, with future validation planned in Indian patients at AIG Hospitals, Hyderabad.
 
@@ -16,8 +16,8 @@ The end goal is a minimal panel of molecular markers (genes, proteins, metabolit
 ## What is IBD?
 
 Inflammatory Bowel Disease includes two forms:
-- **Crohn's Disease (CD)** — can affect any part of the digestive tract
-- **Ulcerative Colitis (UC)** — confined to the colon and rectum
+- **Crohn's Disease (CD)** -can affect any part of the digestive tract
+- **Ulcerative Colitis (UC)** -confined to the colon and rectum
 
 Current diagnosis requires invasive colonoscopy and biopsy. This project aims to find molecular markers detectable from simpler sample types.
 
@@ -28,7 +28,7 @@ Current diagnosis requires invasive colonoscopy and biopsy. This project aims to
 All data is publicly available and fully anonymised.
 
 | Dataset | Omics Type | Source | Samples | IBD | Healthy |
-|---|---|---|---|---|---|
+
 | GSE137344 | Transcriptomics — RNA-seq (ileum) | GEO | 193 | 156 | 37 |
 | GSE186507 | Transcriptomics — RNA-seq (blood) | GEO | 1,030 | 821 | 209 |
 | GSE193677 | Transcriptomics — RNA-seq (colon biopsy) | GEO | 2,490 | 2,029 | 461 |
@@ -112,7 +112,7 @@ Raw data
 Statistical test selection by data type:
 
 | Data type | Test | Reason |
-|---|---|---|
+
 | RNA-seq raw counts | DESeq2 Wald test | Negative binomial model for count data |
 | Microarray (normalised) | limma moderated t-test | Linear model for continuous data |
 | Tissue proteomics | Welch t-test | Log-normal after transformation |
@@ -126,7 +126,7 @@ Statistical test selection by data type:
 ### Significant features identified
 
 | Dataset | Features tested | Significant | Direction |
-|---|---|---|---|
+
 | GSE137344 (ileum) | 14,406 genes | 165 | 151 up, 14 down in IBD |
 | GSE186507 (blood) | 24,835 genes | 146 | mixed |
 | PXD001608 (colon) | 5,620 proteins | 721 | 509 up, 212 down in IBD |
@@ -191,7 +191,7 @@ Raw data files are not included in this repository due to size (total ~6 GB).
 Download instructions and accession numbers:
 
 | Dataset | Repository | Accession |
-|---|---|---|
+
 | GSE137344 | NCBI GEO | GSE137344 |
 | GSE186507 | NCBI GEO | GSE186507 |
 | GSE193677 | NCBI GEO | GSE193677 |
@@ -253,4 +253,3 @@ Code is available under the MIT License.
 
 ---
 
-*BITS Pilani, Hyderabad Campus — BIO F266 Study Project — 2025*
